@@ -505,6 +505,23 @@
 						</li>
 					</ul>
 				</div>
+				<form class="form-footer">
+					<h2 class="title-form">Subscribe</h2>
+					<div class="wraper-for-form-footer">
+						<input
+							type="email"
+							name="user-email"
+							class="input-for-email"
+							placeholder="E-mail"
+						/>
+						<button type="submit" class="button-subscribe-footer">
+							Subscribe
+							<svg class="icon-button-subscribe">
+								<use href="./Images/symbol-defs.svg#icon-submit"></use>
+							</svg>
+						</button>
+					</div>
+				</form>
 			</div>
 		</footer>
 		<div class="backdrop is-hidden" data-modal>
@@ -514,6 +531,64 @@
 						<use href="./Images/symbol-defs.svg#icon-close"></use>
 					</svg>
 				</button>
+				<p class="title-for-modal-form">
+					Leave your contacts and we will call you back
+				</p>
+				<form class="form-for-modal">
+					<label class="label-main"
+						><span class="text-main">Name</span>
+						<div class="thumb-for-form-modal">
+							<input type="text" name="user-name" class="input-main" />
+							<svg class="icon-for-form-in-modal">
+								<use href="./Images/symbol-defs.svg#icon-person"></use>
+							</svg>
+						</div>
+					</label>
+					<label class="label-main"
+						><span class="text-main">Phone</span>
+						<div class="thumb-for-form-modal">
+							<input type="tel" name="user-phone" class="input-main" />
+							<svg class="icon-for-form-in-modal">
+								<use href="./Images/symbol-defs.svg#icon-phone"></use>
+							</svg>
+						</div>
+					</label>
+					<label class="label-main"
+						><span class="text-main">Email</span>
+
+						<div class="thumb-for-form-modal">
+							<input type="email" name="user-email" class="input-main" />
+							<svg class="icon-for-form-in-modal">
+								<use href="./Images/symbol-defs.svg#icon-email"></use>
+							</svg>
+						</div>
+					</label>
+					<label class=""
+						><span class="text-main">Comment</span>
+						<textarea
+							name="user-comment"
+							class="text-area"
+							placeholder="Text input"
+						></textarea>
+					</label>
+					<label class="label-policy"
+						><input
+							type="checkbox"
+							name="privacy-policy"
+							class="input-policy"
+						/>
+						<span class="fake-chekbox"
+							><svg class="icon-policy">
+								<use href="./Images/symbol-defs.svg#icon-vector"></use>
+							</svg>
+						</span>
+						<span class="text-policy"
+							>I accept the terms and conditions of the &nbsp;
+						</span>
+						<a href="" class="link-policy">Privacy Policy</a>
+					</label>
+					<button type="submit" class="button-send">Send</button>
+				</form>
 			</div>
 		</div>
 		<script src="./js/modal.js"></script>
